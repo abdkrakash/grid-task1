@@ -1,0 +1,32 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  display: grid;
+  height: 700px;
+  padding: 10px ;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.achelad,
+.itach,
+.goko,
+.zoro {
+  border-radius: 20px;
+  width: 500px;
+}
+.itach {
+  height: 200px;
+}
+.achelad {
+  height: 250px;
+}
+.goko {
+  height: 400px;
+}
+.zoro {
+  height: 200px;
+}

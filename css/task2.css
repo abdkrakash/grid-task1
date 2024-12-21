@@ -1,0 +1,18 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  height: 80px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 200px 200px 200px;
+  gap: 2px;
+  padding: 10px
+  ;
+}
+.itme {
+  height: 200px;
+}

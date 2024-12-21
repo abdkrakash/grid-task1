@@ -1,0 +1,16 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 20px;
+}
+.itme {
+  background-color: brown;
+  grid-area: auto;
+}

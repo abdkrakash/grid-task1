@@ -1,0 +1,74 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .parent {
+    height: 80px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 40px;
+    padding: 10px;
+
+  }
+ .computer-starter-kit,.printer1,.printer2,.Mouse,.Macintosh{
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10%;
+    height: 300px;
+    width: 200px;
+  }
+
+  .computer-starter-kit{
+    display: grid;
+    padding: 20px;
+    grid-template-rows: repeat(4,80px);
+    
+  }
+ 
+  .par1{
+    height: 20px;
+  }
+  button{
+background-color: rgb(18, 159, 108);
+color: white;
+width: 100px;
+height: 30px;
+border-radius: 20px;
+
+
+  }
+  .pic1
+  {
+height: 50px;
+  }
+  .printer1{
+display: grid;
+padding: 20px;
+grid-template-rows: repeat(4,80px);
+  }
+  .printer2{
+    display: grid;
+    padding: 20px;
+    /* grid-template-rows: repeat(4,80px); */
+
+  }
+  .Mouse{
+    display: grid;
+    padding: 20px;
+  }
+  .butt{
+
+    align-content: end;
+  }
+.Macintosh{
+  display: grid;
+  padding: 20px;
+}
+
+
+
+
+  

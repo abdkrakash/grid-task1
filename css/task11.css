@@ -1,0 +1,39 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .test {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .row1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .itme {
+    background-color: grey;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+  }
+  .sub {
+    background-color: rgb(191, 190, 190);
+    margin: 4px;
+    width: 117px;
+  }
+  .sub1 {
+    background-color: rgb(191, 190, 190);
+    margin: 4px;
+    width: 240px;
+  }
+  .sub2 {
+    background-color: rgb(191, 190, 190);
+    margin: 4px;
+    width: 117px;
+  }
+  

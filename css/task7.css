@@ -1,0 +1,34 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: grid;
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 500px;
+  gap: 5px;
+  padding: 2px;
+  margin: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  border: 2px solid black;
+  gap: 5px;
+  padding: 20px;
+  width: 480px;
+  height: 150px;
+  margin: 5px;
+  text-align: center;
+  row-gap: 5px;
+  justify-content: space-around;
+
+}
+.grid .div {
+  background-color: rgb(124, 143, 143);
+  width: 80px;
+}
